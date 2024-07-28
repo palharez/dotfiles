@@ -123,3 +123,15 @@ export NVM_DIR="$HOME/.nvm"
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+# NVIM
+export PATH="$PATH:/opt/nvim-linux64/bin"
+
+# GoLang
+export PATH=$PATH:/usr/local/go/bin
+
+# Rails
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+export PATH=$PATH:/home/palharez/.local/bin
+
