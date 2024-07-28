@@ -1,47 +1,55 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "JetBrains Mono",
+  "workbench.iconTheme": "catppuccin-macchiato",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
+  // Terminal
   "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  // Definições do editor
   "editor.formatOnSave": false,
-  "editor.renderLineHighlight": "gutter",
   "editor.parameterHints.enabled": false,
+  "editor.lineHeight": 1.8,
   "editor.tabSize": 2,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
   "editor.rulers": [80, 120],
+  // Explorer
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
+  "editor.semanticHighlighting.enabled": false,
+  // Git
   "git.enableSmartCommit": true,
+  // Extensions
   "extensions.ignoreRecommendations": true,
+  // Emmet
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  // Typescript
   "typescript.updateImportsOnFileMove.enabled": "never",
   "typescript.tsserver.log": "verbose",
   "typescript.suggest.autoImports": false,
+  // Javascript
   "javascript.updateImportsOnFileMove.enabled": "never",
   "javascript.suggest.autoImports": false,
+  // Files
   "files.associations": {
-    ".sequelizerc": "javascript"
+    ".sequelizerc": "javascript",
+    "*.ts": "typescript"
   },
+  // Breadcrumbs
   "breadcrumbs.enabled": true,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
-  "workbench.colorTheme": "Omni",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "bracketPairColorizer.depreciation-notice": false,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -52,22 +60,32 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "editor.inlineSuggest.enabled": true,
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false
-  },
   "material-icon-theme.activeIconPack": "nest",
   "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8"
+    "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "symbols.hidesExplorerArrows": false,
-  "workbench.productIconTheme": "fluent-icons",
   "editor.multiCursorLimit": 100000,
   "symbols.files.associations": {},
-  "terminal.integrated.defaultProfile.linux": "zsh"
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "redhat.telemetry.enabled": true,
+  "remote.autoForwardPortsSource": "hybrid",
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "editor.minimap.enabled": false,
+  "go.toolsManagement.autoUpdate": true,
+  "explorer.confirmPasteNative": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "editor.fontSize": 14,
+  "workbench.colorTheme": "Catppuccin Macchiato",
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  }
 }
